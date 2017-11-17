@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="teams">
+
+        <item>Group</item>
+        <item>Group</item>
+        <item>Group</item>
+        <item>Group</item>
+        <item>Group</item>
+
+
+
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+
+
+
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+        <item>KnockOut</item>
+    </string-array>
+    <string-array name="teams_name">
+        <item >Real Madrid</item>
+        <item >LiverPool</item>
+        <item >Barcelona</item>
+        <item >Arsenal</item>
+        <item >PSG</item>
+        <item >Bayern</item>
+        <item >Chelsea</item>
+        <item >Man utd</item>
+        <item >Man city</item>
+        <item >Man utd</item>
+        <item >Man city</item>
+        <item >Man utd</item>
+
+        <item >Man city</item>
+        <item >Man utd</item>
+        <item >Man city</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context="com.huzaifa.project.football.Fragments.video_screen">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/rl"
+        >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+       android:layout_weight="0.5"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:text="Arey bhai bhai bhai"
+            android:paddingTop="10dp"
+            android:paddingLeft="6dp"
+            android:textSize="18sp"
+            android:textAppearance="?attr/titleTextAppearance"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/title"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="#456"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

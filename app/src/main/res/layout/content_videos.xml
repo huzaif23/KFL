@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.huzaifa.project.football.Videos"
+    tools:showIn="@layout/activity_videos">
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube"
+        >
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thumb"
+        android:layout_below="@id/youtube"
+        />
+
+</RelativeLayout>

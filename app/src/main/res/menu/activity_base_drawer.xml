@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="">
+        <menu>
+
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_player"
+            android:icon="@mipmap/player"
+            android:title="Players" />
+        <item
+            android:id="@+id/nav_teams"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Teams" />
+        <item
+            android:id="@+id/nav_points_table"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Points Table" />
+        <item
+            android:id="@+id/nav_fixture"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Fixtures" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="Highlights" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_venue"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Venue" />
+    </group>
+
+
+</menu>
